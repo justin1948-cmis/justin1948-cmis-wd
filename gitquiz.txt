@@ -1,10 +1,11 @@
-1. Git clone.
-2. Change the directory from home to your repository folder.                	<cd justin-1948-cmis>
-3. Create a new text file called file.txt in your repository folder.         	<gedit file.txt>
-4. Save the file and close gedit.
-5. Git add your work back to github.com. <git add file.txt>
-6. Git commit your work back to github.com. <git commit -m "Commit Comment">
-7. Git push your work back to github.com. <git push>
-8. Enter your username and password for git push.
-9. Check if the file is in your respository in github.com.
-10. Close terminal and shut down your computer.
+1. Open terminal.
+2. Git clone your repository with the command: git clone --config="http.proxy=http://your-network-username:your-network-password@192.168.2.1:8080" https://github.com/your-github-username/your-github-repository-name.git
+3. Change the directory to your repository folder. <cd justin-1948-cmis>
+4. Create a new text file called file.txt in your repository folder.         	<gedit file.txt>
+5. Save the file and close gedit.
+6. Git add your work back to github.com. <git add file.txt>
+7. Git commit your work back to github.com. <git commit -m "Commit Comment">
+8. Git push your work back to github.com. <git push>
+9. Enter your username and password for git push.
+10. Check if the file is in your respository in github.com.
+11. Close terminal and shut down your computer.
