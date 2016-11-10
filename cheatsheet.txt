@@ -14,3 +14,17 @@ git clone --config="http.proxy=http://uname:pword@192.168.2.1:8080" http://url-t
 git add <file name>
 git commit -m "Commit Comment"
 git push
+
+sftp Commands
+
+sftp username@cmis-hsteacher 
+ls - same as terminal
+cd - same as terminal
+prepend a command with ! to execute it on local
+put <filename> - upload a file
+get <filename> - download a file
+
+Validators
+
+HTML
+CSS
