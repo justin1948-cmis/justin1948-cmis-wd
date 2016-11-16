@@ -1,9 +1,38 @@
-h1 { 
+/* 
+color
+background-color
+font-family
+font-size
+border-style
+border-color
+border-bottom-color
+border-top-color
+border-left-color
+border-right-color
+text-align
+*/
+html{
+	color:yellow;
+	background-color:gray;
+}
+h1{ 
 	<font-family:arial;
-	color:blue;
+	color:black;
 	font-size:30px;
+	border-style:dotted;
+	border-color:blue;
+	border-bottom-color:red;
+	border-left-color:green;
+	border-right-color:yellow;
+	text-align:center;
+	font:cursive;
+}
+h2{
+	text-align:center;
 }
 p{
-	background-color:purple;
-	border:solid 1px orange;
+	font-size:20px;
+}
+footer{
+	font-size:10px;
 }
