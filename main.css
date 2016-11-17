@@ -3,6 +3,7 @@ color
 background-color
 font-family
 font-size
+font-style
 border-style
 border-color
 border-bottom-color
@@ -10,9 +11,9 @@ border-top-color
 border-left-color
 border-right-color
 text-align
+text-decoration
 */
 html{
-	color:yellow;
 	background-color:gray;
 }
 h1{ 
@@ -25,13 +26,18 @@ h1{
 	border-left-color:green;
 	border-right-color:yellow;
 	text-align:center;
-	font:cursive;
+	font-style:italic;
 }
 h2{
+	font:25px arial;
+	text-decoration:underline;
+	font-style: bold;
 	text-align:center;
+	color:yellow;
 }
 p{
 	font-size:20px;
+	color:white;
 }
 footer{
 	font-size:10px;
