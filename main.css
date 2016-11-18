@@ -1,6 +1,8 @@
 /* 
 color
 background-color
+background-image
+background-position
 font-family
 font-size
 font-style
@@ -12,19 +14,24 @@ border-left-color
 border-right-color
 text-align
 text-decoration
+position
+padding
 */
 html{
-	background-color:gray;
+	background-color:;
+	background-image:url(http://www.wallpapermaven.com/cat/abstract/download/Blue-Radial-Gradient-1280x1024-5.jpg);
+	background-position:top;
 }
 h1{ 
-	<font-family:arial;
+	background-color:yellow;
+	font-family:arial;
 	color:black;
 	font-size:30px;
 	border-style:dotted;
-	border-color:blue;
+	border:3px dotted red;
 	border-bottom-color:red;
-	border-left-color:green;
-	border-right-color:yellow;
+	border-left-color:red;
+	border-right-color:red;
 	text-align:center;
 	font-style:italic;
 }
@@ -36,9 +43,14 @@ h2{
 	color:yellow;
 }
 p{
-	font-size:20px;
-	color:white;
+	background-color:yellow;
+	font-size:80px;
+	text-align:center;
+	color:black;
+	border:3px solid red;
+	padding: 2cm 2cm;
 }
 footer{
 	font-size:10px;
+	position:bottom;
 }
