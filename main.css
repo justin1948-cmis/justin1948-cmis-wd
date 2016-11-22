@@ -3,6 +3,7 @@ color
 background-color
 background-image
 background-position
+background-size
 font-family
 font-size
 font-style
@@ -16,11 +17,17 @@ text-align
 text-decoration
 position
 padding
+margin-left
+margin-right
 */
 html{
 	background-color:;
-	background-image:url(http://www.wallpapermaven.com/cat/abstract/download/Blue-Radial-Gradient-1280x1024-5.jpg);
+	background-image:url(http://eskipaper.com/images/light-blue-background-2.jpg);
 	background-position:top;
+	background-size:50%;
+	margin-left:2cm;
+	margin-right:2cm;
+	
 }
 h1{ 
 	background-color:yellow;
