@@ -1,0 +1,32 @@
+html{
+}
+body{
+	border-left:brown orange;
+	border-right:brown orange;
+}
+h1{
+	color:yellow;
+	background-color:green;
+	border-bottom:dashed yellow 5px;
+}
+h2{
+	color:blue;
+	background-color:red;
+	border-bottom:dashed yellow 10px;
+}
+h3{
+	color:yellow;
+	background-color:purple;
+}
+h4{
+	color:purple;
+	background-color:yellow;
+	border-top:dashed purple 3px;
+}
+p{
+	color:blue;
+}
+footer{
+	color:blue;
+	border-left:thick red;
+}
