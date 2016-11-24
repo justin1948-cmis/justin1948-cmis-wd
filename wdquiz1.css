@@ -1,0 +1,45 @@
+html{
+	background-color:pink;
+}	
+body{ 
+	border-left:30px dotted red;
+}
+h1{
+	color:red;
+	background-color:#AFEEEE;
+	font-size:50px;
+	text-decoration:underline;
+	border-bottom:5px solid black;
+}
+nav{
+	color:navy;
+	background-color:#AFEEEE;
+	text-decoration:underline;
+	text-decoration-color:black;
+	border-top:2px dotted green;
+	border-bottom:25px dotted red;
+}
+header{
+	background-color:#AFEEEE;
+}
+p{
+	color:blue;
+	border-top:2px dotted green;
+}
+h2{
+	color:white;
+	background-color:blue;
+}
+h3{
+	color:white;
+	background-color:blue;
+}
+h4{
+	color:black;
+}
+footer{
+	color:black;
+	font-size:25px
+	border-top:2px dotted green;
+	border-bottom:2px solid black;
+}
