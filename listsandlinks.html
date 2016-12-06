@@ -8,17 +8,25 @@
 		<link rel="stylesheet" href="" type="text/css">
  	</head>
 	<body>
+		<main>
 		<header>
 			<h1>
 				Lists and Links
 			</h1>
 		</header>
+			<ul>
+			<li>
+			<nav>
+				<a href="index.html">Home</a>
+			</nav>
+			</li>
+			</ul>
 			<h2>
 				Procedure to Create and View a Website on the Production Server
 			</h2>
 			<ol>
 				<li>
-					Clone your repository.
+					Clone your repository (git clone --config="http.proxy=http://uname:pword@192.168.2.1:8080" http://url-to-your-repo).
 				</li>
 				<li>
 					Change into your directory (cd "directory name".
@@ -50,5 +58,38 @@
 				<li>
 					Git push (git push).
 				</li>
+				<li>
+					Use the sftp command to access the production server (sftp username@cmis-hsteacher)
+				</li>
+				<li>
+					Change the directory in the production server to public_html (cd public_html).
+				</li>
+				<li>
+					Put your files in the production server (put "file name").
+				</li>
+				</ol>
+			<h2>
+				Helpful Websites
+			</h2>
+			<ul>
+				<li>
+					http://www.w3schools.com/html/html_lists.asp
+				</li>
+				<li>
+					http://www.w3schools.com/tags/tag_ol.asp
+				</li>
+				<li>
+					http://www.w3schools.com/tags/tag_ul.asp
+				</li>
+				<li>
+					http://www.w3schools.com/tags/tag_li.asp
+				</li>
+					http://www.w3schools.com/tags/tag_nav.asp
+				</li>
+				</ul>
+		<footer>
+			©2016 Justin Lakawathana
+		</footer>
+	<main>
 	</body>
 </html>
