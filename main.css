@@ -64,7 +64,6 @@ h1{
 	border-left-color:red;
 	border-right-color:red;
 	text-align:center;
-	font-style:bold;
 	width:100%;
 }
 nav{
@@ -73,29 +72,38 @@ nav{
 	font-style:bold;
 	background-color:yellow;
 	text-align:center;
-	border:3px solid red;
 	width:100%;
 }
 h2{
 	font:25px arial;
 	text-decoration:underline;
-	font-style: italic;
-	text-align:center;
 	color:black;
-	background-color:yellow;
-	border:3px solid red;
 	width:100%;
+}
+h1, h2{
+	font-weight:bold;
+	font-style:normal;
+}
+main p{
+	border:3px solid red;
 }
 p{
 	background-color:yellow;
-	font-size:80px;
+	font-size:60px;
 	text-align:center;
 	color:black;
-	border:3px solid red;
 	padding: 2cm 2cm;
 }
+ol{
+	background-color:yellow;
+	border:3px solid red;
+}
+ul{
+	background-color:yellow;
+	border:3px solid red;
+}
 footer{
-	font-size:10px;
+	font-size:20px;
 	text-align:center;
 	background-color:yellow;
 	border:0.2in dotted red;
