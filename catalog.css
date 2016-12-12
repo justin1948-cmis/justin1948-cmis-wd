@@ -1,12 +1,51 @@
 html{
-	background-image:url(http://amxxcs.ru/wp/wc1724548.jpg);
+	background-image:url(http://wallpapercave.com/wp/0zJgItY.jpg);
 }
-h1{
-	margin-top:-8px;
-	margin-right:-2in;
-	margin-left:-2in;
+header{
+	margin-top:-9px;
+	margin-right:3.5in;
+	margin-left:3.5in;
 	color:white;
 	text-align:center;
 	background-color:black;
-	border-bottom:5px solid white;
-} 
+	border:2px solid white;
+	padding:20px;
+}
+header nav{
+	font-size:20px;
+}
+h1{
+	font-size:50px;
+	text-decoration:underline;
+}
+article{
+	background-color:black;
+	color:white;
+	text-align:center;
+	margin-right:3.5in;
+	margin-left:3.5in;
+	border:2px solid white;
+	padding:.5in;
+}
+h2{
+	font-size:30px;
+}
+ul{
+	font-size:20px
+}
+article p{
+	font-size:15px;
+	padding:0px;
+	margin-bottom:10px;
+	margin-right:0px;
+	margin-left:0px;
+}
+p{
+	color:white;	
+	text-align:center;
+	padding:2in;
+	font-size:50px;
+	background-color:black;
+	margin-right:3.5in;
+	margin-left:3.5in;
+}
